@@ -1,0 +1,505 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        nav {
+            width: 50%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .selling {
+                font-size: 30px;
+                font-weight: 700;
+                color: black;
+
+                span {
+                    color: orangered;
+                    border: 50px;
+                }
+            }
+
+            .navbarText {
+
+                justify-content: flex-end;
+                align-items: center;
+
+                ul {
+                    li {
+                        a {
+                            color: rgb(82, 82, 82);
+                            transition: 0.4s;
+                            font-size: 12px;
+                            font-weight: 600;
+                        }
+
+                        a:hover {
+                            color: orangered;
+                            transition: 0.4s;
+                            font-size: 12px;
+                            font-weight: 600;
+                        }
+
+                        .home {
+                            color: orangered;
+                            font-size: 12px;
+                            font-weight: 600;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        #secOne {
+            background-image: url(/assets/img/hero_2.webp);
+            width: 100%;
+            height: 700px;
+            background-size: cover;
+
+            .secContent {
+          
+             display: flex;
+             justify-content: center;
+             align-items: center;
+                .contentOne {
+                    
+                    display: flex;
+                    align-items: center;
+                    width: 70%;
+                    margin: auto;
+                  
+
+                    h1 {
+                        color: white;
+                        font-size: 50px;
+                        font-weight: 700;
+                    }
+
+                    p {
+                        color: white;
+                        font-size: 14px;
+                        font-weight: 500;
+                        width: 450px;
+                    }
+
+                    .buttons {
+                        padding-top: 30px;
+
+                        #btn1 {
+                            border: 1px solid white;
+                            color: white;
+                            font-size: 10px;
+                            font-weight: 600;
+                            transition: 0.4s;
+                            width: 120px;
+                            height: 35px;
+                            background-color: transparent;
+                        }
+
+                        #btn1:hover {
+                            border: 1px solid white;
+                            color: black;
+                            font-size: 10px;
+                            font-weight: 600;
+                            transition: 0.4s;
+                            width: 120px;
+                            height: 35px;
+                            background-color: white;
+                        }
+
+                        #btn2 {
+                            border: 1px solid white;
+                            color: black;
+                            font-size: 10px;
+                            font-weight: 600;
+                            transition: 0.4s;
+                            width: 150px;
+                            height: 35px;
+                            background-color: white;
+                        }
+
+                        #btn2:hover {
+                            border: 1px solid white;
+                            color: white;
+                            font-size: 10px;
+                            font-weight: 600;
+                            transition: 0.4s;
+                            width: 150px;
+                            height: 35px;
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+
+        #secTwo {
+            padding: 110px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .secContent {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .contentOne {
+                    padding-bottom: 20px;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    align-items: center;
+
+                    .content {
+                        h3 {
+                            color: gray;
+                            font-size: 12px;
+                            font-weight: 600;
+                        }
+
+                        h2 {
+                            color: black;
+                            font-size: 28px;
+                            font-weight: 700;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            color: gray;
+                            width: 400px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        #secThree {
+            padding: 110px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .secContent {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .contentOne {
+                    padding-bottom: 50px;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    align-items: center;
+
+                    .content {
+                        h3 {
+                            color: gray;
+                            font-size: 12px;
+                            font-weight: 600;
+                        }
+
+                        h2 {
+                            color: black;
+                            font-size: 28px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+
+            .contentTwo {
+                width: 70%;
+                display: flex;
+                gap: 80px;
+
+                .content {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    width: 75%;
+
+                    img {
+                        width: 180px;
+                    }
+
+                    h2 {
+                        font-size: 16px;
+                        color: gray;
+                    }
+
+                    h3 {
+                        font-size: 10px;
+                        color: rgb(156, 156, 156);
+                    }
+
+                    p {
+                        color: gray;
+                        font-size: 14px;
+                    }
+
+                    .icons {
+                        display: flex;
+                        gap: 10px;
+
+                        i {
+                            background-color: rgb(41, 41, 41);
+                            color: white;
+                            font-size: 10px;
+                            width: 20px;
+                            height: 20px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 50%;
+
+                        }
+                    }
+                }
+            }
+        }
+
+
+        #secFour {
+            padding: 110px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .secContent {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .contentOne {
+                    padding-bottom: 20px;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    align-items: center;
+
+                    .content {
+                        h3 {
+                            color: gray;
+                            font-size: 12px;
+                            font-weight: 600;
+                        }
+
+                        h2 {
+                            color: black;
+                            font-size: 28px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+
+                .contentTwo {
+                    .contentForm {
+                        h2 {
+                            color: black;
+                            font-size: 18px;
+                            font-weight: 500;
+                            padding-bottom: 10px;
+                        }
+
+                        form {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+
+                            .nameInput {
+                                display: flex;
+                                gap: 20px;
+
+                                .inp {
+                                    p {
+                                        font-size: 12px;
+                                    }
+
+                                    input {
+                                        width: 250px;
+                                        border: none;
+                                        outline: 1px solid gray;
+                                    }
+
+                                    input:hover {
+                                        width: 250px;
+                                        border: none;
+                                        outline: 1px solid orangered;
+                                    }
+                                }
+                            }
+
+                            .inp {
+                                p {
+                                    font-size: 12px;
+                                }
+
+                                input {
+                                    width: 520px;
+                                    border: none;
+                                    outline: 1px solid gray;
+                                }
+
+                                input:hover {
+                                    width: 520px;
+                                    border: none;
+                                    outline: 1px solid orangered;
+                                }
+                            }
+
+                            textarea {
+                                padding: 5px 10px;
+                                width: 520px;
+                                border: none;
+                                outline: 1px solid gray;
+                            }
+
+                            textarea:hover {
+                                padding: 5px 10px;
+                                width: 520px;
+                                border: none;
+                                outline: 1px solid orangered;
+                            }
+
+                            button {
+                                width: 110px;
+                                height: 40px;
+                                background-color: black;
+                                color: white;
+                                font-size: 8px;
+                                font-weight: 600;
+                                transition: 0.4s;
+                                border: 1px solid black;
+                            }
+
+                            button:hover {
+                                width: 110px;
+                                height: 40px;
+                                background-color: white;
+                                color: black;
+                                font-size: 8px;
+                                font-weight: 600;
+                                transition: 0.4s;
+                                border: 1px solid black;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+    }
+
+    footer {
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+    body {
+        main {
+            #secOne {
+                background-image: url(/assets/img/hero_2.webp);
+                width: 100%;
+                height: 700px;
+                background-size: cover;
+
+                .secContent {
+                    position: relative;
+
+                    .contentOne {
+                        position: absolute;
+                        top: 250px;
+                        left: 100px;
+
+                        h1 {
+                            color: white;
+                            font-size: 40px;
+                            font-weight: 700;
+                        }
+
+                        p {
+                            color: white;
+                            font-size: 12px;
+                            font-weight: 500;
+                            width: 370px;
+                        }
+
+                        .buttons {
+                            padding-top: 20px;
+
+                            #btn1 {
+                                border: 1px solid white;
+                                color: white;
+                                font-size: 10px;
+                                font-weight: 600;
+                                transition: 0.4s;
+                                width: 100px;
+                                height: 30px;
+                                background-color: transparent;
+                            }
+
+                            #btn1:hover {
+                                border: 1px solid white;
+                                color: black;
+                                font-size: 10px;
+                                font-weight: 600;
+                                transition: 0.4s;
+                                width: 100px;
+                                height: 30px;
+                                background-color: white;
+                            }
+
+                            #btn2 {
+                                border: 1px solid white;
+                                color: black;
+                                font-size: 10px;
+                                font-weight: 600;
+                                transition: 0.4s;
+                                width: 130px;
+                                height: 30px;
+                                background-color: white;
+                            }
+
+                            #btn2:hover {
+                                border: 1px solid white;
+                                color: white;
+                                font-size: 10px;
+                                font-weight: 600;
+                                transition: 0.4s;
+                                width: 130px;
+                                height: 30px;
+                                background-color: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
